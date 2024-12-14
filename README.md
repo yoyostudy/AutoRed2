@@ -5,6 +5,9 @@
 
 🛡️ Traditional red teaming is costly and slow. 
 
+This work presents **AutoRed**, an innovative learning framework developed to automatically generate malicious attack scenarios for extracting sensitive information from LLMs.
+
+**AutoRed** consists of two low level components: the _malicious prompt generator_ and the _sensitive information extractor_, along with an one high level components: the _stop point identifier_.
 
 <h3 align="center"> TBD </h3>
 
