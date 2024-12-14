@@ -20,6 +20,6 @@ This work presents **AutoRed**, an innovative learning framework developed to au
 
 ## Acknowledgments
 
-This work uses the **RL4LMs** library developed by **AllenAI**; see the [license](https://github.com/allenai/RL4LMs/blob/master/LICENSE) for details.
+This work uses the **RL4LMs** library developed by **AllenAI**; see the [license](https://github.com/yoyostudy/AutoRed/main/LICENSE) for details.
 
   
