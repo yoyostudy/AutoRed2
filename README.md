@@ -1,6 +1,4 @@
-AutoRed: Automated Attack Scenario Generation Framework for Red Teaming of LLMs
-
-<h1 align="center"> TBD </h1>
+<h1 align="center"> AutoRed: Automated Attack Scenario Generation Framework for Red Teaming of LLMs</h1>
 
 <h3 align="center"> TBD </h3>
 
