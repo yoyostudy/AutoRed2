@@ -15,4 +15,11 @@ This work presents **AutoRed**, an innovative learning framework developed to au
 - **Two low-level models for prompt injection attack tasks**:
   - The **Malicious Prompt Generator** is trained using Supervised Fine-Tuning (SFT) and Reinforcement Learning (RL) to generate a diverse range of malicious prompt injection attacks.
   - The **Sensitive Information Extractor** is a few-shot engineered GPT-3.5-turbo model designed to extract sensitive data.
+
+
+
+## Acknowledgments
+
+This work uses the **RL4LMs** library developed by **AllenAI**; see the [license](https://github.com/allenai/RL4LMs/blob/master/LICENSE) for details.
+
   
