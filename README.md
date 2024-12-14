@@ -7,18 +7,12 @@
 
 This work presents **AutoRed**, an innovative learning framework developed to automatically generate malicious attack scenarios for extracting sensitive information from LLMs.
 
-**AutoRed** consists of two low level components: the _malicious prompt generator_ and the _sensitive information extractor_, along with an one high level components: the _stop point identifier_.
+**AutoRed** consists 
 
-<h3 align="center"> TBD </h3>
+- **One high-level model for decision-making**:
+  - The **Stop Point Identifier** is a trained binary classifier that determines whether the current stage should proceed with an attack or an extraction task.
 
-- One high level policy model for decision making
-- Two Low level policy for two prompt injection attack tasks:
-    - Password Guessor
-    - Prompt Injection Generation
-- Pretrained model for reward function
-- A Finite State Machine for transition between the low-level policy, triggered by high level policy
-
-```
-export PYTHONPATH="${PYTHONPATH}:<FOLDER_PATH>"
-python scripts/training/train_text_generation.py --config_path scripts/training/task_configs/pi_gen/pi_supervised.yml
-```
+- **Two low-level models for prompt injection attack tasks**:
+  - The **Malicious Prompt Generator** is trained using Supervised Fine-Tuning (SFT) and Reinforcement Learning (RL) to generate a diverse range of malicious prompt injection attacks.
+  - The **Sensitive Information Extractor** is a few-shot engineered GPT-3.5-turbo model designed to extract sensitive data.
+  
