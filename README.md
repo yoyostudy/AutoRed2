@@ -1,4 +1,4 @@
-<h1 align="center"><img src="assets/autored-logo.png" style="vertical-align: middle" width="25px"> <b>AutoRed</b>: Automated Attack Generation Framework for Red Teaming of Large Language Models</h1>  
+<h1 align="center"><img src="assets/autored-logo.png" style="vertical-align: middle" width="70px"> <b>AutoRed</b>: Automated Attack Generation Framework for Red Teaming of Large Language Models</h1>  
 
 <h3 align="center"> TBD </h3>
 
